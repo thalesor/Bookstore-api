@@ -1,0 +1,15 @@
+dist
+node_modules
+.env*
+!.env.example
+yarn.lock
+.vscode
+docker-compose.test.yml
+docker-compose.development.yml
+prisma/migrations/20220612190602_make_schema_better/migration.sql
+prisma/migrations/20220609125711_delete_field_occupancy_in_table_room_accommodation/migration.sql
+prisma/migrations/20220609125415_add_new_table_user_room_accommodations/migration.sql
+prisma/migrations/20220609125711_delete_field_occupancy_in_table_room_accommodation/migration.sql
+prisma/migrations/20220609125415_add_new_table_user_room_accommodations/migration.sql
+prisma/migrations/20220613093859_/migration.sql
+tests/integration/ticketType.test.ts
